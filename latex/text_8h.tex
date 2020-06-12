@@ -1,0 +1,231 @@
+\hypertarget{text_8h}{}\section{Référence du fichier text.\+h}
+\label{text_8h}\index{text.\+h@{text.\+h}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}voiture.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}background.\+h\char`\"{}}\newline
+Graphe des dépendances par inclusion de text.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{text_8h__incl}
+\end{center}
+\end{figure}
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{text_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Structures de données}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structText}{Text}
+\begin{DoxyCompactList}\small\item\em struct for \hyperlink{structText}{Text} \end{DoxyCompactList}\item 
+struct \hyperlink{structTime}{Time}
+\begin{DoxyCompactList}\small\item\em struct for \hyperlink{structTime}{Time} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{text_8h_ac92ca5ab87034a348decad7ee8d4bd1b}{F\+PS}~60
+\item 
+\#define \hyperlink{text_8h_a91023e7c9b297a2cf1ef0728903a4308}{A\+C\+C\+E\+LX}~0
+\item 
+\#define \hyperlink{text_8h_a7434bdf859f83feeae7473fdf8841c18}{A\+C\+C\+E\+LY}~0
+\item 
+\#define \hyperlink{text_8h_a9b6bc9242882d1e758e06ed751a2e8ec}{S\+C\+R\+E\+E\+N\+\_\+W}~1000
+\item 
+\#define \hyperlink{text_8h_a27cddfd509d28b4b2b0b44c093fac090}{S\+C\+R\+E\+E\+N\+\_\+H}~400
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{text_8h_ab262a155d2f6fdeefc6ad6d63da93c82}{init\+Text} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em initialiser \hyperlink{structText}{Text} T. \end{DoxyCompactList}\item 
+void \hyperlink{text_8h_a2dc500fe2665ba740d37f08e490c2a6a}{init\+Temps} (\hyperlink{structTime}{Time} $\ast$time)
+\begin{DoxyCompactList}\small\item\em initialiser \hyperlink{structTime}{Time} time. \end{DoxyCompactList}\item 
+void \hyperlink{text_8h_a6f50df17af941d4d1aff8d62c336edca}{load\+Font} (T\+T\+F\+\_\+\+Font $\ast$$\ast$police)
+\begin{DoxyCompactList}\small\item\em Load Font. \end{DoxyCompactList}\item 
+void \hyperlink{text_8h_a307b7655043a42402d751a3da90ff1d0}{Afficher\+\_\+\+Text} (T\+T\+F\+\_\+\+Font $\ast$police, \hyperlink{structText}{Text} $\ast$T, S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structVoiture}{Voiture} V, \hyperlink{structBackground}{Background} Back, \hyperlink{structTime}{Time} $\ast$time, Uint32 dt)
+\begin{DoxyCompactList}\small\item\em Afficher tout les text . \end{DoxyCompactList}\item 
+void \hyperlink{text_8h_aed94d72c6d43ac78f60f25e0d622d3bd}{free\+Font} (T\+T\+F\+\_\+\+Font $\ast$$\ast$police)
+\begin{DoxyCompactList}\small\item\em Liberer la surface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des macros}
+\mbox{\Hypertarget{text_8h_a91023e7c9b297a2cf1ef0728903a4308}\label{text_8h_a91023e7c9b297a2cf1ef0728903a4308}} 
+\index{text.\+h@{text.\+h}!A\+C\+C\+E\+LX@{A\+C\+C\+E\+LX}}
+\index{A\+C\+C\+E\+LX@{A\+C\+C\+E\+LX}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{A\+C\+C\+E\+LX}{ACCELX}}
+{\footnotesize\ttfamily \#define A\+C\+C\+E\+LX~0}
+
+\mbox{\Hypertarget{text_8h_a7434bdf859f83feeae7473fdf8841c18}\label{text_8h_a7434bdf859f83feeae7473fdf8841c18}} 
+\index{text.\+h@{text.\+h}!A\+C\+C\+E\+LY@{A\+C\+C\+E\+LY}}
+\index{A\+C\+C\+E\+LY@{A\+C\+C\+E\+LY}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{A\+C\+C\+E\+LY}{ACCELY}}
+{\footnotesize\ttfamily \#define A\+C\+C\+E\+LY~0}
+
+\mbox{\Hypertarget{text_8h_ac92ca5ab87034a348decad7ee8d4bd1b}\label{text_8h_ac92ca5ab87034a348decad7ee8d4bd1b}} 
+\index{text.\+h@{text.\+h}!F\+PS@{F\+PS}}
+\index{F\+PS@{F\+PS}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{F\+PS}{FPS}}
+{\footnotesize\ttfamily \#define F\+PS~60}
+
+\mbox{\Hypertarget{text_8h_a27cddfd509d28b4b2b0b44c093fac090}\label{text_8h_a27cddfd509d28b4b2b0b44c093fac090}} 
+\index{text.\+h@{text.\+h}!S\+C\+R\+E\+E\+N\+\_\+H@{S\+C\+R\+E\+E\+N\+\_\+H}}
+\index{S\+C\+R\+E\+E\+N\+\_\+H@{S\+C\+R\+E\+E\+N\+\_\+H}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{S\+C\+R\+E\+E\+N\+\_\+H}{SCREEN\_H}}
+{\footnotesize\ttfamily \#define S\+C\+R\+E\+E\+N\+\_\+H~400}
+
+\mbox{\Hypertarget{text_8h_a9b6bc9242882d1e758e06ed751a2e8ec}\label{text_8h_a9b6bc9242882d1e758e06ed751a2e8ec}} 
+\index{text.\+h@{text.\+h}!S\+C\+R\+E\+E\+N\+\_\+W@{S\+C\+R\+E\+E\+N\+\_\+W}}
+\index{S\+C\+R\+E\+E\+N\+\_\+W@{S\+C\+R\+E\+E\+N\+\_\+W}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{S\+C\+R\+E\+E\+N\+\_\+W}{SCREEN\_W}}
+{\footnotesize\ttfamily \#define S\+C\+R\+E\+E\+N\+\_\+W~1000}
+
+
+
+\subsection{Documentation des fonctions}
+\mbox{\Hypertarget{text_8h_a307b7655043a42402d751a3da90ff1d0}\label{text_8h_a307b7655043a42402d751a3da90ff1d0}} 
+\index{text.\+h@{text.\+h}!Afficher\+\_\+\+Text@{Afficher\+\_\+\+Text}}
+\index{Afficher\+\_\+\+Text@{Afficher\+\_\+\+Text}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{Afficher\+\_\+\+Text()}{Afficher\_Text()}}
+{\footnotesize\ttfamily void Afficher\+\_\+\+Text (\begin{DoxyParamCaption}\item[{T\+T\+F\+\_\+\+Font $\ast$}]{police,  }\item[{\hyperlink{structText}{Text} $\ast$}]{T,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structVoiture}{Voiture}}]{V,  }\item[{\hyperlink{structBackground}{Background}}]{Back,  }\item[{\hyperlink{structTime}{Time} $\ast$}]{time,  }\item[{Uint32}]{dt }\end{DoxyParamCaption})}
+
+
+
+Afficher tout les text . 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em scren} & the screen \\
+\hline
+{\em back} & the background \\
+\hline
+{\em time} & le \hyperlink{structTime}{Time} \\
+\hline
+{\em police} & le font \\
+\hline
+{\em T} & le \hyperlink{structText}{Text} \\
+\hline
+{\em dt} & variation dt \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{text_8h_a307b7655043a42402d751a3da90ff1d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{text_8h_aed94d72c6d43ac78f60f25e0d622d3bd}\label{text_8h_aed94d72c6d43ac78f60f25e0d622d3bd}} 
+\index{text.\+h@{text.\+h}!free\+Font@{free\+Font}}
+\index{free\+Font@{free\+Font}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{free\+Font()}{freeFont()}}
+{\footnotesize\ttfamily void free\+Font (\begin{DoxyParamCaption}\item[{T\+T\+F\+\_\+\+Font $\ast$$\ast$}]{police }\end{DoxyParamCaption})}
+
+
+
+Liberer la surface. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em police} & le font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{text_8h_aed94d72c6d43ac78f60f25e0d622d3bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{text_8h_a2dc500fe2665ba740d37f08e490c2a6a}\label{text_8h_a2dc500fe2665ba740d37f08e490c2a6a}} 
+\index{text.\+h@{text.\+h}!init\+Temps@{init\+Temps}}
+\index{init\+Temps@{init\+Temps}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{init\+Temps()}{initTemps()}}
+{\footnotesize\ttfamily void init\+Temps (\begin{DoxyParamCaption}\item[{\hyperlink{structTime}{Time} $\ast$}]{time }\end{DoxyParamCaption})}
+
+
+
+initialiser \hyperlink{structTime}{Time} time. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em time} & le \hyperlink{structTime}{Time} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{text_8h_a2dc500fe2665ba740d37f08e490c2a6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{text_8h_ab262a155d2f6fdeefc6ad6d63da93c82}\label{text_8h_ab262a155d2f6fdeefc6ad6d63da93c82}} 
+\index{text.\+h@{text.\+h}!init\+Text@{init\+Text}}
+\index{init\+Text@{init\+Text}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{init\+Text()}{initText()}}
+{\footnotesize\ttfamily void init\+Text (\begin{DoxyParamCaption}\item[{\hyperlink{structText}{Text} $\ast$}]{T }\end{DoxyParamCaption})}
+
+
+
+initialiser \hyperlink{structText}{Text} T. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em T} & le \hyperlink{structText}{Text} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{text_8h_ab262a155d2f6fdeefc6ad6d63da93c82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{text_8h_a6f50df17af941d4d1aff8d62c336edca}\label{text_8h_a6f50df17af941d4d1aff8d62c336edca}} 
+\index{text.\+h@{text.\+h}!load\+Font@{load\+Font}}
+\index{load\+Font@{load\+Font}!text.\+h@{text.\+h}}
+\subsubsection{\texorpdfstring{load\+Font()}{loadFont()}}
+{\footnotesize\ttfamily void load\+Font (\begin{DoxyParamCaption}\item[{T\+T\+F\+\_\+\+Font $\ast$$\ast$}]{police }\end{DoxyParamCaption})}
+
+
+
+Load Font. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em police} & le font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{text_8h_a6f50df17af941d4d1aff8d62c336edca_icgraph}
+\end{center}
+\end{figure}

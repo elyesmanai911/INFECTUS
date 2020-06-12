@@ -1,0 +1,137 @@
+\hypertarget{voiture_8c}{}\section{Référence du fichier voiture.\+c}
+\label{voiture_8c}\index{voiture.\+c@{voiture.\+c}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}voiture.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}background.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}text.\+h\char`\"{}}\newline
+Graphe des dépendances par inclusion de voiture.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{voiture_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{voiture_8c_a20fdd4e4c29a45446e170697fdcd8df3}{load\+Voiture\+Images} (\hyperlink{structVoiture}{Voiture} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Load \hyperlink{structVoiture}{Voiture} A. \end{DoxyCompactList}\item 
+void \hyperlink{voiture_8c_ac14144b9123d356bd28406e6d244ba09}{init\+Voiture} (\hyperlink{structVoiture}{Voiture} $\ast$A)
+\begin{DoxyCompactList}\small\item\em initialiser \hyperlink{structVoiture}{Voiture} A. \end{DoxyCompactList}\item 
+void \hyperlink{voiture_8c_a56efa82c5b16b51ee9da3cbc1075cde2}{move\+Voiture} (\hyperlink{structVoiture}{Voiture} $\ast$A, \hyperlink{structBackground}{Background} $\ast$B, Uint32 dt)
+\begin{DoxyCompactList}\small\item\em Mouvement \hyperlink{structVoiture}{Voiture} A. \end{DoxyCompactList}\item 
+void \hyperlink{voiture_8c_a4d5d4a48e7800b5768acf4b5b5ba6cf9}{free\+Voiture} (\hyperlink{structVoiture}{Voiture} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Liberer la surface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\mbox{\Hypertarget{voiture_8c_a4d5d4a48e7800b5768acf4b5b5ba6cf9}\label{voiture_8c_a4d5d4a48e7800b5768acf4b5b5ba6cf9}} 
+\index{voiture.\+c@{voiture.\+c}!free\+Voiture@{free\+Voiture}}
+\index{free\+Voiture@{free\+Voiture}!voiture.\+c@{voiture.\+c}}
+\subsubsection{\texorpdfstring{free\+Voiture()}{freeVoiture()}}
+{\footnotesize\ttfamily void free\+Voiture (\begin{DoxyParamCaption}\item[{\hyperlink{structVoiture}{Voiture} $\ast$}]{A }\end{DoxyParamCaption})}
+
+
+
+Liberer la surface. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & la voiture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{voiture_8c_a4d5d4a48e7800b5768acf4b5b5ba6cf9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{voiture_8c_ac14144b9123d356bd28406e6d244ba09}\label{voiture_8c_ac14144b9123d356bd28406e6d244ba09}} 
+\index{voiture.\+c@{voiture.\+c}!init\+Voiture@{init\+Voiture}}
+\index{init\+Voiture@{init\+Voiture}!voiture.\+c@{voiture.\+c}}
+\subsubsection{\texorpdfstring{init\+Voiture()}{initVoiture()}}
+{\footnotesize\ttfamily void init\+Voiture (\begin{DoxyParamCaption}\item[{\hyperlink{structVoiture}{Voiture} $\ast$}]{A }\end{DoxyParamCaption})}
+
+
+
+initialiser \hyperlink{structVoiture}{Voiture} A. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & la voiture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{voiture_8c_ac14144b9123d356bd28406e6d244ba09_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{voiture_8c_a20fdd4e4c29a45446e170697fdcd8df3}\label{voiture_8c_a20fdd4e4c29a45446e170697fdcd8df3}} 
+\index{voiture.\+c@{voiture.\+c}!load\+Voiture\+Images@{load\+Voiture\+Images}}
+\index{load\+Voiture\+Images@{load\+Voiture\+Images}!voiture.\+c@{voiture.\+c}}
+\subsubsection{\texorpdfstring{load\+Voiture\+Images()}{loadVoitureImages()}}
+{\footnotesize\ttfamily void load\+Voiture\+Images (\begin{DoxyParamCaption}\item[{\hyperlink{structVoiture}{Voiture} $\ast$}]{A }\end{DoxyParamCaption})}
+
+
+
+Load \hyperlink{structVoiture}{Voiture} A. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & la voiture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{voiture_8c_a20fdd4e4c29a45446e170697fdcd8df3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{voiture_8c_a56efa82c5b16b51ee9da3cbc1075cde2}\label{voiture_8c_a56efa82c5b16b51ee9da3cbc1075cde2}} 
+\index{voiture.\+c@{voiture.\+c}!move\+Voiture@{move\+Voiture}}
+\index{move\+Voiture@{move\+Voiture}!voiture.\+c@{voiture.\+c}}
+\subsubsection{\texorpdfstring{move\+Voiture()}{moveVoiture()}}
+{\footnotesize\ttfamily void move\+Voiture (\begin{DoxyParamCaption}\item[{\hyperlink{structVoiture}{Voiture} $\ast$}]{A,  }\item[{\hyperlink{structBackground}{Background} $\ast$}]{B,  }\item[{Uint32}]{dt }\end{DoxyParamCaption})}
+
+
+
+Mouvement \hyperlink{structVoiture}{Voiture} A. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em A} & la voiture \\
+\hline
+{\em B} & the background \\
+\hline
+{\em dt} & variation dt \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{voiture_8c_a56efa82c5b16b51ee9da3cbc1075cde2_icgraph}
+\end{center}
+\end{figure}

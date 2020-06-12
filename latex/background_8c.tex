@@ -1,0 +1,132 @@
+\hypertarget{background_8c}{}\section{Référence du fichier background.\+c}
+\label{background_8c}\index{background.\+c@{background.\+c}}
+{\ttfamily \#include \char`\"{}background.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}text.\+h\char`\"{}}\newline
+Graphe des dépendances par inclusion de background.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{background_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{background_8c_a7690baf8498d427ca7dbb6ff0f06b142}{load\+Background} (\hyperlink{structBackground}{Background} $\ast$Back)
+\begin{DoxyCompactList}\small\item\em Load \hyperlink{structBackground}{Background} Back. \end{DoxyCompactList}\item 
+void \hyperlink{background_8c_a80c8e2751f2e1049fe1c033f2a971fe0}{init\+Background} (\hyperlink{structBackground}{Background} $\ast$Back)
+\begin{DoxyCompactList}\small\item\em initialiser \hyperlink{structBackground}{Background} Back. \end{DoxyCompactList}\item 
+void \hyperlink{background_8c_acd20976661c4bf621c809bf465f59f68}{blit\+Background} (\hyperlink{structBackground}{Background} $\ast$Back, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em Afficher le background back . \end{DoxyCompactList}\item 
+void \hyperlink{background_8c_a04645de4c3c73cae976c1ceb1fe06548}{free\+Background} (\hyperlink{structBackground}{Background} $\ast$Back)
+\begin{DoxyCompactList}\small\item\em Liberer la surface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions}
+\mbox{\Hypertarget{background_8c_acd20976661c4bf621c809bf465f59f68}\label{background_8c_acd20976661c4bf621c809bf465f59f68}} 
+\index{background.\+c@{background.\+c}!blit\+Background@{blit\+Background}}
+\index{blit\+Background@{blit\+Background}!background.\+c@{background.\+c}}
+\subsubsection{\texorpdfstring{blit\+Background()}{blitBackground()}}
+{\footnotesize\ttfamily void blit\+Background (\begin{DoxyParamCaption}\item[{\hyperlink{structBackground}{Background} $\ast$}]{Back,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen }\end{DoxyParamCaption})}
+
+
+
+Afficher le background back . 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em scren} & the screen \\
+\hline
+{\em back} & the background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{background_8c_acd20976661c4bf621c809bf465f59f68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{background_8c_a04645de4c3c73cae976c1ceb1fe06548}\label{background_8c_a04645de4c3c73cae976c1ceb1fe06548}} 
+\index{background.\+c@{background.\+c}!free\+Background@{free\+Background}}
+\index{free\+Background@{free\+Background}!background.\+c@{background.\+c}}
+\subsubsection{\texorpdfstring{free\+Background()}{freeBackground()}}
+{\footnotesize\ttfamily void free\+Background (\begin{DoxyParamCaption}\item[{\hyperlink{structBackground}{Background} $\ast$}]{Back }\end{DoxyParamCaption})}
+
+
+
+Liberer la surface. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em back} & the background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{background_8c_a04645de4c3c73cae976c1ceb1fe06548_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{background_8c_a80c8e2751f2e1049fe1c033f2a971fe0}\label{background_8c_a80c8e2751f2e1049fe1c033f2a971fe0}} 
+\index{background.\+c@{background.\+c}!init\+Background@{init\+Background}}
+\index{init\+Background@{init\+Background}!background.\+c@{background.\+c}}
+\subsubsection{\texorpdfstring{init\+Background()}{initBackground()}}
+{\footnotesize\ttfamily void init\+Background (\begin{DoxyParamCaption}\item[{\hyperlink{structBackground}{Background} $\ast$}]{Back }\end{DoxyParamCaption})}
+
+
+
+initialiser \hyperlink{structBackground}{Background} Back. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em back} & le background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{background_8c_a80c8e2751f2e1049fe1c033f2a971fe0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{background_8c_a7690baf8498d427ca7dbb6ff0f06b142}\label{background_8c_a7690baf8498d427ca7dbb6ff0f06b142}} 
+\index{background.\+c@{background.\+c}!load\+Background@{load\+Background}}
+\index{load\+Background@{load\+Background}!background.\+c@{background.\+c}}
+\subsubsection{\texorpdfstring{load\+Background()}{loadBackground()}}
+{\footnotesize\ttfamily void load\+Background (\begin{DoxyParamCaption}\item[{\hyperlink{structBackground}{Background} $\ast$}]{Back }\end{DoxyParamCaption})}
+
+
+
+Load \hyperlink{structBackground}{Background} Back. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em back} & le background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Rien 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{background_8c_a7690baf8498d427ca7dbb6ff0f06b142_icgraph}
+\end{center}
+\end{figure}
